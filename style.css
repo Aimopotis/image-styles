@@ -1,0 +1,42 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+  margin-bottom: 3em;
+}
+
+img{max-width: 100%;}
+
+.rad img{
+  border-radius: 50%;
+}
+
+.container{
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background-color: #fff; 
+  box-shadow: 0 ;
+  transition: box-shadow ease-in-out 0.5s;
+}
+
+.hover:hover{
+  box-shadow:  0 0 10px 5px  rgba(0, 140, 186, 0.5);
+}
+
+.center{
+  width: 100vw;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background-color: #fff; 
+  box-shadow: 0 ;
+  transition: box-shadow ease-in-out 0.5s;
+}
+
+.center img{
+  margin: 0 auto;
+  display: block;
+}
